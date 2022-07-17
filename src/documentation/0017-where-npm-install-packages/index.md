@@ -31,7 +31,7 @@ When this happens, npm won't install the package under the local folder, but ins
 
 Where, exactly?
 
-The `npm root -g` command will tell you where that exact location is on your machine.
+The `npm root --location=global` command will tell you where that exact location is on your machine.
 
 On macOS or Linux this location could be `/usr/local/lib/node_modules`.
 On Windows it could be `C:\Users\YOU\AppData\Roaming\npm\node_modules`
